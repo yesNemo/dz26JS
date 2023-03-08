@@ -1,0 +1,64 @@
+body{
+    text-align: center;
+    padding: 50px;
+}
+div{
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+p{
+    margin: 0;
+    padding: 5px;
+
+}
+
+.screenDriver label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.screenDriver input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+
+.screenDriver button, .checkDrivers button, .checkFuel button {
+    padding: 5px;
+    font-size: 16px;
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.checkDrivers label, .checkFuel label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.checkDrivers input[type="text"], .checkFuel input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+
+.checkFuel label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.checkFuel input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+
+.checkFuel p {
+    margin-top: 10px;
+    font-weight: bold;
+}

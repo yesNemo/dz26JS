@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link  rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="screenInfo">
+
+    <button onclick="infoCarButton()">Отримати інформацію про машину</button>
+    <p id="infoCarText"></p>
+</div>
+
+<div class="screenDriver">
+    <label for="driverInput">Enter new driver:</label>
+    <input type="text" id="driverInput">
+    <button onclick="addDriver()">Add Driver</button>
+    <p id="driverResult"></p>
+</div>
+<div class="checkDrivers">
+    <label for="checkDriverInput">Введіть назву водія а я перевірю чи він є в списку</label>
+    <input type="text" id="checkDriverInput">
+    <button onclick="checkDriver()">asd</button>
+    <p id="checkDriverResult"></p>
+</div>
+<div class="checkFuel">
+    <label for="checkFuelIuput">Введіть кількість км а я покажу час за який наш водій зможе продолати відстань. Кожні 4 години водій має 1 годину відпочинку</label>
+    <input type="text" id="checkFuelIuput">
+    <button onclick="hardMatch()">CheckFuel</button>
+    <p id="checkFuelResult"></p>
+</div>
+<script src="script/script.js"></script>
+</body>
+</html>
+
